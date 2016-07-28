@@ -1,0 +1,18 @@
+h1, p, body > div, input{
+	text-align: center;
+	display: block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#list {
+	border: 0.1em solid #aaaaff;
+}
+#get-stats {
+	margin-top: 1em;
+}
+.double div {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}

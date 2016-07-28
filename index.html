@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List Stats</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1>List Stats</h1>
+	<p>Input a list of numbers separated by commas(eg. 1, 7, 3.85) and press button to get stats of list.</p>
+	<input type="text" id="list">
+	<input type="button" value="Get stats!" id="get-stats">
+	<div id="correction"><p>Please input a list of numbers separated by commas(eg. 1, 7, 3.85).</p></div>
+	<div id="results">
+		<div class="double">
+			<div>
+				<p>Length of list </p>
+				<p id="num"></p>
+			</div>
+			<div>
+				<p>Average of numbers</p>
+				<p id="avg"></p>
+			</div>
+		</div>
+		<div class="double">
+			<div>
+				<p>Most common number(s)</p>
+				<p id="mode"></p>
+			</div>
+			<div>
+				<p>Median</p>
+				<p id="med"></p>
+			</div>
+		</div>
+		<div class="double">
+			<div>
+				<p>Smallest number</p>
+				<p id="min"></p>
+			</div>
+			<div>
+				<p>Greatest number</p>
+				<p id="max"></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
